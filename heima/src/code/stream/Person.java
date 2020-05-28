@@ -1,4 +1,4 @@
-package stream;
+package code.stream;
 
 public class Person {
     private String name;

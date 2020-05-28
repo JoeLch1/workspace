@@ -1,6 +1,4 @@
-package stream;
-
-import java.util.ArrayList;
+package code.stream;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.stream.Stream;

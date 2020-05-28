@@ -1,4 +1,4 @@
-package stream;
+package code.stream;
 
 import java.util.stream.Stream;
 
@@ -12,6 +12,6 @@ public class StreamLimit {
     public static void main(String[] args) {
         Stream<Integer> stream = Stream.of(1, 2, 34, 5, 6, 7);
         stream.limit(5).forEach(i-> System.out.println(i));
-        //stream.count();//错误，因为forEach是终极方法，流已经终止
+        //code.stream.count();//错误，因为forEach是终极方法，流已经终止
     }
 }
